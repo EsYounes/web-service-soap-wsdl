@@ -6,6 +6,7 @@ public class Compte {
 
     private Long code;
     private float solde;
+    private Date dateCreation;
 
     public Compte(Long code, float solde, Date dateCreation) {
         this.code = code;
@@ -40,6 +41,6 @@ public class Compte {
         this.dateCreation = dateCreation;
     }
 
-    private Date dateCreation;
+
 
 }
